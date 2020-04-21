@@ -7,7 +7,7 @@ import pyttsx3
 # Initiate the new reading engine
 conversionEngine = pyttsx3.init()
 voices = conversionEngine.getProperty('voices')  
-conversionEngine.setProperty('rate', 150)
+conversionEngine.setProperty('rate', 160)
 conversionEngine.setProperty('voice', voices[0].id) 
 newsapi = NewsApiClient(api_key='4b33be55e8d54a21be0e57bdc9ef9988') #Register at newsapi.org
 
