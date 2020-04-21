@@ -9,7 +9,7 @@ conversionEngine = pyttsx3.init()
 voices = conversionEngine.getProperty('voices')  
 conversionEngine.setProperty('rate', 160)
 conversionEngine.setProperty('voice', voices[0].id) 
-newsapi = NewsApiClient(api_key='4b33be55e8d54a21be0e57bdc9ef9988') #Register at newsapi.org
+newsapi = NewsApiClient(api_key='Put your key here') #Register at newsapi.org
 
 top_headlines = newsapi.get_top_headlines(q='COVID-19', 
                                           sources='bbc-news',
